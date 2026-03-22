@@ -441,7 +441,6 @@ def main():
     st.markdown("""
     <div style="text-align:center; color:#94a3b8; font-size:0.8rem;">
     AI 400 NLP Final Project · Bellevue College · March 2026<br>
-    Reimers & Gurevych (2019) · Lewis et al. (2020) · Lin (2004) · Devlin et al. (2018)
     </div>
     """, unsafe_allow_html=True)
 
