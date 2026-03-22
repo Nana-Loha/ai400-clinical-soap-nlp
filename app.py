@@ -273,6 +273,7 @@ def render_entities(entities: dict):
             st.markdown(f"- {a}")
 
 # ── Main App ───────────────────────────────────────────────────────────────────
+# ── Main App ───────────────────────────────────────────────────────────────────
 def main():
     # Get API key from Streamlit secrets
     try:
@@ -289,10 +290,17 @@ def main():
         st.markdown("### ℹ️ About")
         st.markdown("""
         **Pipeline:**
-        1. 🔒 PHI De-identification (spaCy NER + Regex)
+        1. 🔒 PHI De-identification (Regex-based)
         2. 🤖 SOAP Summarization (Claude Haiku)
         3. 🔍 ICD-10 RAG (all-MiniLM-L6-v2 + FAISS)
-
+        """)
+        st.caption("⚠️ Streamlit Cloud uses Python 3.14 — regex only. Full spaCy NER available in Colab notebook.")
+        st.markdown("""
+        **Models:**
+        - `claude-haiku-4-5-20251001`
+        - `all-MiniLM-L6-v2`
+        """)
+       
         **Models:**
         - `claude-haiku-4-5-20251001`
         - `all-MiniLM-L6-v2`
