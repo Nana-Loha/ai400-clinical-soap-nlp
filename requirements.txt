@@ -1,0 +1,8 @@
+streamlit>=1.32.0
+anthropic>=0.25.0
+sentence-transformers>=2.7.0
+faiss-cpu>=1.8.0
+requests>=2.31.0
+numpy>=1.26.0
+spacy>=3.7.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
