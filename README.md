@@ -67,7 +67,7 @@ ai400-clinical-soap-nlp/
 
 ## 🖥️ Streamlit Demo App
 
-**Live demo:** *(add your Streamlit Cloud URL here)*
+**Live demo:** *([add your Streamlit Cloud URL here](https://ai400-clinical-soap-nlp-htt3q45mosnsygcqqg4cg2.streamlit.app/))*
 
 Features:
 - 🔒 PHI de-identification with before/after view
