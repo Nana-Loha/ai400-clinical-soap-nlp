@@ -273,7 +273,6 @@ def render_entities(entities: dict):
             st.markdown(f"- {a}")
 
 # ── Main App ───────────────────────────────────────────────────────────────────
-# ── Main App ───────────────────────────────────────────────────────────────────
 def main():
     # Get API key from Streamlit secrets
     try:
@@ -296,11 +295,6 @@ def main():
         """)
         st.caption("⚠️ Streamlit Cloud uses Python 3.14 — regex only. Full spaCy NER available in Colab notebook.")
         st.markdown("""
-        **Models:**
-        - `claude-haiku-4-5-20251001`
-        - `all-MiniLM-L6-v2`
-        """)
-       
         **Models:**
         - `claude-haiku-4-5-20251001`
         - `all-MiniLM-L6-v2`
@@ -449,6 +443,7 @@ def main():
     st.markdown("""
     <div style="text-align:center; color:#94a3b8; font-size:0.8rem;">
     AI 400 NLP Final Project · Bellevue College · March 2026<br>
+    Reimers & Gurevych (2019) · Lewis et al. (2020) · Lin (2004) · Devlin et al. (2018)
     </div>
     """, unsafe_allow_html=True)
 
