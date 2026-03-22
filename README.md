@@ -57,9 +57,9 @@ Evaluation (ROUGE + BLEU + ICD Precision@5 / Recall@5)
 
 ```
 ai400-clinical-soap-nlp/
-├── AI400_Final_Project_SUBMIT.ipynb   # Main Jupyter Notebook (with outputs)
-├── app.py                             # Streamlit demo app
-├── requirements.txt                   # Python dependencies
+├── Clinical_SOAP_Summarization_ICD10_RAG.ipynb    # Main Jupyter Notebook (with outputs)
+├── app.py                                         # Streamlit demo app
+├── requirements.txt                               # Python dependencies
 └── README.md
 ```
 
