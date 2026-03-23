@@ -1,12 +1,12 @@
 # 🏥 Clinical SOAP Summarization with ICD-10 RAG
 
-> **AI 400 — Natural Language Processing  | Final Project**
->
-> **Author:** Pitchanan Lohavanichbutr
->
-> **Bellevue College | March 2026**
+**AI 400 — Natural Language Processing | Final Project**  
+**Author:** Pitchanan Lohavanichbutr  
+**Bellevue College | March 2026**
 
 A production-aware clinical NLP pipeline that de-identifies patient data, generates structured SOAP summaries using a large language model, and suggests ICD-10 diagnosis codes via Retrieval-Augmented Generation.
+
+🎬 **[Watch the full project walkthrough on YouTube →](https://www.youtube.com/watch?v=favkkUxYI_8)**
 
 ---
 
